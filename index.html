@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row my-5">
+            <div class="col-12 my-2">
+                <form action="" class="form-inline">
+                    <input type="date" name="start-date" class="form-control">
+                    <input type="date" name="end-date" class="mx-2 form-control">
+                    <input type="text" name="room-name" class="ml-2 form-control" placeholder="Room name...">
+                </form>
+                <button id="btnAddGroup" class="btn btn-success btn-block my-2">Add new group</button>
+                <form action="" class="form-inline">
+                    <label for="dropdownGroups">select your group</label>
+                    <select name="group" id="dropdownGroups" class="mx-2  form-control">
+                        <option value="">Select group</option>
+                    </select>
+                </form>
+                <table id="studentTable" class="table table-hovered table-bordered my-2 ">
+                    <thead>
+                        <tr>
+                            <th>No</th>
+                            <th>Name</th>
+     +             <th>Lastname</th>
+     +             <th>Email</th>
+     +             <th>Birthdate</th>
+     +             <th>GPA</th>
+     +         </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="lib/main.js"></script>
+</body>
+
+</html>
