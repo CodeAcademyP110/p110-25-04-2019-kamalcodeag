@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>OOP practice by Kamal Guliyev</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-12 d-flex justify-content-center">
+                <form>
+                    <div class="form-group form-inline">
+                        <label for="s-name" class="mr-2">Name</label>
+                        <input type="text" class="form-control" id="s-name" placeholder="Your name">
+                        <label for="s-surname" class="mx-2">Surname</label>
+                        <input type="text" class="form-control" id="s-surname" placeholder="Your surname">
+                        <label for="s-email" class="mx-2">Email</label>
+                        <input type="email" class="form-control" id="s-email" placeholder="Your email">
+                        <label for="s-pos" class="mx-2">New position</label>
+                        <input type="text" class="form-control" id="s-pos" placeholder="New position">
+                    </div>
+                    <div class="d-flex justify-content-between form-group form-inline">
+                        <div class="s-select-group d-flex">
+                            <label for="s-select" class="mr-2">List of positions</label>
+                            <select id="s-select">
+                                <option value="0">Select a position</option>
+                            </select>
+                        </div>
+                        <button type="button" id="s-btn-pos" class="btn btn-success">Add a new position</button>
+                    </div>
+                    <div class="mt-5 form-group d-flex justify-content-center">
+                        <button type="button" id="s-btn" class="btn btn-primary btn-lg btn-block">Add a new employee</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-12">
+                <table id="table" class="table table-hover table-bordered">
+                    <thead>
+                        <tr>
+                            <th>№</th>
+                            <th>Name</th>
+                            <th>Surname</th>
+                            <th>Email</th>
+                            <th>Position</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>
